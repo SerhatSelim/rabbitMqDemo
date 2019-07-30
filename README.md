@@ -1,0 +1,2 @@
+# rabbitMqDemo
+rabbitMQ study application
