@@ -37,7 +37,7 @@ namespace Producer
                     Console.WriteLine($" Name: {coffee.Name} Size:{coffee.Size} For [{coffee.Message}]");
                 };
                 channel.BasicConsume(queue: "QCoffeeShop",
-                                     autoAck: true,
+                                     autoAck: false,
                                      consumer: consumer);
 
                 Console.WriteLine(" Coffee received :)");
